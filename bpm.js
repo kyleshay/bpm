@@ -9,7 +9,7 @@ javascript:(
       // create the element, add some styles, defaults, and add it to the page.
       bpm = document.createElement('div');
       bpm.id = 'bpm';
-      bpm.style.cssText = 'position:fixed;z-index:1000;left:0;top:0;padding:10px';
+      bpm.style.cssText = 'position:fixed;z-index:1000;background-color:#fff;left:0;top:0;padding:10px';
       bpm.innerHTML = '0';
       document.body.appendChild(bpm);
     }

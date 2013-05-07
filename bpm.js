@@ -54,8 +54,3 @@ javascript:(
     };
   }
 )();
-
-
-//
-//javascript:(function(){var e=document.getElementById("bpm");if(e==null){e=document.createElement("div");e.id="bpm";e.style.cssText="position:fixed;z-index:1000;left:0;top:0;padding:10px";e.innerHTML="0";document.body.appendChild(e)}var t=0;var n=0;var r=0;var i=2;document.onkeypress=function(s){var o=(new Date).getTime();if(o-r>1e3*i){t=0}if(t==0){e.innerHTML=0;n=o;t=1}else{e.innerHTML=Math.round(6e4*t/(o-n)*100)/100;t++}r=o;return true}})()
-//
